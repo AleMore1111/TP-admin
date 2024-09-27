@@ -1,0 +1,30 @@
+🌞 Effectue un scan du réseau auquel tu es connecté
+
+PS C:\Users\Moreaux> nmap.exe -sn -PR 10.33.64.0/20
+Starting Nmap 7.95 ( https://nmap.org ) at 2024-09-27 17:02 Paris, Madrid (heure dÆÚtÚ)
+Stats: 0:00:47 elapsed; 0 hosts completed (0 up), 4095 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 45.49% done; ETC: 17:04 (0:00:56 remaining)
+Stats: 0:00:47 elapsed; 0 hosts completed (0 up), 4095 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 45.59% done; ETC: 17:04 (0:00:56 remaining)
+Stats: 0:00:47 elapsed; 0 hosts completed (0 up), 4095 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 46.52% done; ETC: 17:04 (0:00:55 remaining)
+
+🌞 Changer d'adresse IP
+
+Carte réseau sans fil Wi-Fi :
+
+   Suffixe DNS propre à la connexion. . . :
+   Description. . . . . . . . . . . . . . : Intel(R) Wi-Fi 6 AX101
+   Adresse physique . . . . . . . . . . . : 74-13-EA-8E-BB-06
+   DHCP activé. . . . . . . . . . . . . . : Non
+   Configuration automatique activée. . . : Oui
+   Adresse IPv6 de liaison locale. . . . .: fe80::5c69:71c5:51dc:c092%15(préféré)
+   Adresse IPv4. . . . . . . . . . . . . .: 10.33.79.8(en double)
+   Masque de sous-réseau. . . . . . . . . : 255.255.240.0
+   Adresse d’autoconfiguration IPv4 . . . : 169.254.198.15(préféré)
+   Masque de sous-réseau. . . . . . . . . : 255.255.0.0
+   Passerelle par défaut. . . . . . . . . : 10.33.79.254
+   IAID DHCPv6 . . . . . . . . . . . : 125047786
+   DUID de client DHCPv6. . . . . . . . : 00-01-00-01-2C-E8-E5-6C-40-C2-BA-DB-A6-08
+   Serveurs DNS. . .  . . . . . . . . . . : 8.8.8.8
+   NetBIOS sur Tcpip. . . . . . . . . . . : Activé
